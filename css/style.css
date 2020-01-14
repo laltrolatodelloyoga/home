@@ -1,7 +1,28 @@
+/* HOME */
 .home {
   font-size: 35px;
   letter-spacing: 0.10em;
   font-family: 'Roboto', sans-serif;
+}
+
+h1 img {
+  width: 2.5em;
+  position: fixed;
+  top: 8%;
+  right: 21%;
+  display: inline-block;
+}
+
+main h1 {
+  font-family: 'Viga', sans-serif;
+  font-size: 325%;
+  text-transform: uppercase;
+  color: #232020;
+  width: 100%;
+}
+
+main h1 p img {
+  
 }
 
 /* BUTTON HOME */
@@ -68,6 +89,10 @@ h3 {
   width: 50%;
 }
 
+.base {
+  font-size: 2.3em;
+  font-family: 'Viga', sans-serif;
+}
 
 /* ICONE */
 
@@ -108,33 +133,20 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 img {
-  width: 2.5em;
-  position: fixed;
-  top: 8%;
-  right: 21%;
-}
-
-main a .link {
-  font-size: 2em;
-  color: black;
+.link {
+  font-size: 1em;
+  color: #a00000;
   background-color: transparent;
   text-align: center;
+  text-decoration: none;
 }
 
-main h1 {
-  font-family: 'Viga', sans-serif;
-  font-size: 65px;
-  text-transform: uppercase;
-  color: #232020;
-  width: 100%;
+.link:hover {
+  text-decoration: underline;
+  color: #660000;
 }
 
-main h1 p img {
-  display: inline-block;
-  width: 25%;
-}
-
+/* IMGS LOCATION */
 .location, .location2{
   width: 40%;
   border-radius: 30px;
