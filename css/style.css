@@ -113,8 +113,8 @@ footer {
 h1 img {
   width: 2.5em;
   position: fixed;
-  top: 50;
-  right: 280;
+  top: 8%;
+  right: 21%;
 }
 
 main a .link {
@@ -164,8 +164,8 @@ main h1 p img {
 .dropdown {
   position: fixed;
   display: inline-block;
-  top: 50;
-  right: 1180;
+  top: 7%;
+  right: 93.5%;
 }
 
 .dropdown-content {
@@ -195,4 +195,6 @@ main h1 p img {
   display: block;
 }
 
-.dropdown:hover .dropbutton {background-color: grey;}
+.dropdown:hover .dropbutton {
+  background-color: #4f4f4f;
+}
