@@ -8,29 +8,26 @@
 
 .screen {
   width: 110%;
-  height: 30%;
+  min-width: 80%;
   margin-top: -1.5%;
   margin-left: -4%;
 }
 
-main h1 p img {
-  
-}
 
 /* BUTTON HOME */
 main .button {
   background-color: #e6a157;
   text-align: center;
-  font-size: 25px;
   border: 2px solid black;
   border-radius: 8px;
+  font-size: 100%;
   color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   letter-spacing: 0.10em;
-  height: 85px;
-  width: 170px;
-}
+  min-height: 80px;
+  min-width: 170px;
+} 
 
 main .button i {
   font-size: 1.5em;
@@ -49,7 +46,7 @@ main .button i {
 
 nav ul li {
   display: inline-block;
-  width: 25%;
+  min-width: 30%;
 }
 
 
