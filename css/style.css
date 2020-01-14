@@ -4,11 +4,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-nav ul li {
-  display: inline-block;
-  width: 30%;
-}
-
 /* BUTTON HOME */
 main .button {
   background-color: #e6a157;
@@ -21,7 +16,7 @@ main .button {
   font-weight: bold;
   letter-spacing: 0.10em;
   height: 100px;
-  width: 200px;
+  width: 180px;
 }
 
 main .button i {
@@ -39,7 +34,13 @@ main .button i {
   text-align: center;
 }
 
-/*  */
+nav ul li {
+  display: inline-block;
+  width: 31%;
+}
+
+
+/* MARGIN PAG */
 
 .sx {
   text-align: left;
@@ -55,7 +56,7 @@ h3 {
 
 .imgstili {
   width: 30%;
-  border-radius: 8px;
+  border-radius: 10px;
   opacity: 0.9;
 }
 
@@ -67,9 +68,6 @@ h3 {
   width: 50%;
 }
 
-main {
-  
-}
 
 /* ICONE */
 
