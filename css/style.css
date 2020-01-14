@@ -1,6 +1,6 @@
 /* HOME */
 .home {
-  font-size: 150%;
+  font-size: 1.2em;
   letter-spacing: 0.10em;
   font-family: 'Roboto', sans-serif;
   margin-top: -2%;
@@ -21,19 +21,19 @@ main h1 p img {
 main .button {
   background-color: #e6a157;
   text-align: center;
-  font-size: 120%;
+  font-size: 25px;
   border: 2px solid black;
   border-radius: 8px;
   color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   letter-spacing: 0.10em;
-  height: 15%;
-  width: 70%;
+  height: 85px;
+  width: 170px;
 }
 
 main .button i {
-  font-size: 75%;
+  font-size: 1.5em;
 }
 
 .button:hover {
@@ -49,7 +49,7 @@ main .button i {
 
 nav ul li {
   display: inline-block;
-  width: 31%;
+  width: 25%;
 }
 
 
