@@ -1,74 +1,135 @@
-/* HOME */
-.home {
-  font-size: 1.2em;
-  max-width
-  letter-spacing: 0.10em;
-  font-family: 'Roboto', sans-serif;
-  margin-top: -2%;
+/* ICONE */
+header {
+  padding-right: 5em;
+  padding-top: 1.5em;
+  box-shadow: 2px 2px 5px #808080;
+  position: fixed;
 }
 
-.screen {
-  width: 110%;
-  min-width: 80%;
-  margin-top: -1.5%;
-  margin-left: -4%;
+.iconhome {
+  padding-right: 4em;
+  padding-top: 1.5em;
 }
 
-
-/* BUTTON HOME */
-main .button {
-  background-color: #e6a157;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 8px;
-  font-size: 100%;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.10em;
-  height: 80px;
-  width: 170px;
-} 
-
-main .button i {
-  font-size: 1.5em;
-}
-
-.button:hover {
-  background-color: #c9753d;
-}
-
-.homebutton {
+.iconhome nav a {  
   font-size: 2em;
   color: black;
   background-color: transparent;
-  text-align: center;
+  text-decoration: none;
+  float: right;
+  letter-spacing: 0.75em;
 }
 
-nav ul li {
-  display: inline-block;
-  min-width: 30%;
+header nav {
+  padding-right: 2em;
 }
 
+header nav a {
+  padding-right: 0.5;
+  font-size: 2em;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  float: right;
+  letter-spacing: 0.75em;
+}
 
-/* MARGIN PAG */
+header nav a:hover {
+  color: #696969;
+}
+.iconhome nav a:hover {
+  color: #696969;
+}
 
-.sx {
-  text-align: left;
+/* TITOLI */
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: #212121;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  display: inline;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: #212121;
+  letter-spacing: 0.1em;
+  font-size: 3em;
+  margin-top: 0;
+  margin-left: 0.5em;
+  margin-bottom: 0;
 }
 
 h3 {
-  font-size: 2em;
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.titolopag {
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 0.2em;
+}
+
+span {
+  position: absolute;
+  left: 50px;
+  top: 110px;
+}
+
+/* TEXT */
+main {
+  margin-top: 3em;
+  text-align: center;
+  margin-left: 220px;
+  margin-right: 220px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3;
+  background-color: transparent;
+}
+
+.home {
+  margin-top: 1em;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 3px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3;
+}
+
+/* TEXT ALIGN */
+.sx {
+  text-align: left;
 }
 
 .dx {
   text-align: right;
 }
 
+/* IMMAGINI */
+img {
+  z-index: -1;
+  color: transparent;
+  position: relative;
+}
+
 .imgstili {
   width: 30%;
   border-radius: 10px;
   opacity: 0.9;
+  background-color: transparent;
+  display: block;
 }
 
 .imgbenef {
@@ -84,42 +145,56 @@ h3 {
   font-family: 'Viga', sans-serif;
 }
 
-/* ICONE */
-
-header {
-  padding-right: 5em;
-  padding-top: 1.5em;
+.location, .location2{
+  width: 40%;
+  border-radius: 5px;
+  display: inline-block;
 }
 
-header nav a {
-  padding: .25rem 0;
-  font-size: 2em;
-  color: #c9753d;
+.location {
+  opacity: 0.9;
+}
+
+.location2 {
+  opacity: 0.9;
+}
+
+
+
+/* BUTTON HOME */
+main .button {
   background-color: transparent;
-  text-decoration: none;
-  float: right;
-  letter-spacing: 0.75em;
-}
-
-header nav a:hover {
-  font-size: 2.3em;
-  color: #c9753d;
-}
-
-main {
-  margin-top: 3em;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.25;
+  border: 2px solid #293133;
+  border-radius: 8px;
+  font-size: 35px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.10em;
+  height: 100px;
+  width: 200px;
+} 
+
+main .button i {
+  font-size: 1em;
 }
 
-main h1 {
-  text-transform: uppercase;
+.button:hover {
+  background-color: #fcfffc;
 }
 
+main nav ul li {
+  display: inline-block;
+  min-width: 30%;
+}
+
+main nav ul {
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+/* Footer */
 footer {
   text-align: center;
   margin-top: 5em;
@@ -127,79 +202,140 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-.link {
-  font-size: 1em;
-  color: #a00000;
-  background-color: transparent;
-  text-align: center;
-  text-decoration: none;
+/* SIDE NAV-BAR  */
+body {
+  transition: background-color .5s;
 }
 
-.link:hover {
-  text-decoration: underline;
-  color: #660000;
-}
-
-/* IMGS LOCATION */
-.location, .location2{
-  width: 40%;
-  border-radius: 30px;
-  display: inline-block;
-}
-
-.location {
-  opacity: 0.85;
-}
-
-.location2 {
-  opacity: 0.75;
-}
-
-
-/* Dropdown Button */
-.dropbutton {
-  background-color: black;
-  color: white;
-  padding: 18px;
-  font-size: 25px;
-  border: none;
-  border-radius: 8px;
-}
-
-.dropdown {
+.sidenav {
+  height: 100%;
+  width: 0;
   position: fixed;
-  display: inline-block;
-  top: 7%;
-  right: 93.5%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #e6a157;
-  width: 8em;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.1;
-  text-align: left;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+.sidenav a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: black;
   display: block;
+  transition: 0.3s;
 }
 
-.dropdown-content a:hover {
-  background-color: #c9753d;
+.sidenav a:hover {
+  color: #696969;/*grigio scuro*/
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-.dropdown:hover .dropbutton {
-  background-color: #4f4f4f;
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  color: black;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#main:hover {
+  color: #696969; /*grigio scuro*/
+}
+
+/* BUTTON TOP */
+#back2Top {
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    border-radius: 15px;
+    background-color: #ccccff;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #cceeff;
+    color: #696969; /*grigio scuro*/
+}
+
+#back2top2 {
+    background-color: #cceed0;
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#back2top2:hover {
+  background-color: #ffffcc;
+  color: #696969; /*grigio scuro*/
+}
+
+#back2top3 {
+    background-color: #ffffcc;
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#back2top3:hover {
+  background-color: #ffddcc;
+  color: #3d3d3d; /*grigio scuro*/
+}
+
+
+
+.global-header {
+  width: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  transition: top .2s ease-in;
+}
+
+.js-global-header-scrolling {
+ top: -6em; /* Height of the header */
 }
