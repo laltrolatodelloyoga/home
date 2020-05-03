@@ -2,56 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Stili</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'altro Lato dello Yoga - STILI</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/8398afe2b3.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156185001-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-156185001-1');
-</script>
+    <script type="text/JavaScript" src="filejava.js"></script>
+    
 
     <style>
-    html {
-      background-image: url("imgs/yo.jpg");
+    header {
+      background-image: url("imgs/sfondo1.png");
       background-color: grey;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
 
     </style>
-  </head>
-  <body>
-  	<header>
-      <nav>
+  </head> 
+<body>
+  <div id="page-wrap">
+  <header class="global-header">
+	 <nav>
         <a href="https://www.facebook.com/Laltro-lato-dello-YOGA-111906383672514/?modal=admin_todo_tour" <i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/?hl=en"<i class="fab fa-instagram"></i></a>
         <a href="https://twitter.com/?lang=en" <i class="fab fa-twitter"></i></a>
       </nav>
-      <div class="dropdown">
-        <button class="dropbutton"><i class="fas fa-bars"></i></button>
-        <div class="dropdown-content">
-          <a href="index.html">Torna alla Home</a>
-          <a href="stili.html"><b>Stili di Yoga</b></a>
-          <a href="benefici.html">Benefici fisici</a>
-          <a href="location.html">Location e attrezzi</a>
-        </div>
+      <div id="main">
+      <h2>L'ALTRO LATO DELLO YOGA</h2>
+        <span 
+        style="font-size:40px;font-weight:bold;cursor:pointer;" 
+        onclick="openNav()">&#9776; 
+      </span>
       </div>
-
-  	</header>
-    <main>
-        <h1><i class="fas fa-om"></i><br>
-        Stili</h1>
-          <p>Lo yoga è una disciplina millenaria il cui scopo è far ritrovare il <b>benessere e la pace interiore</b> agli individui che lo praticano attraverso l’equilibrio tra corpo, mente e spirito.Esistono diversi stili, ognuno si differenzia dall'altro, avvicinandosi al mondo dello yoga può essere difficile trovare il più giusto per se. 
-            <br>Qualsiasi stile di yoga si scelga, si può migliorare in forza, flessibilità e equilibrio. Tutti gli stili di yoga possono aiutare ad allentare le tensioni nel corpo, calmare la mente e a rilassarsi. Per ottenere il massimo beneficio, è consigliabile scegliere uno stile di yoga che corrisponde al livello di forma fisica e allo stato mentale ed emotivo attuale. 
-            <br>Ci sono stili più attivi come il vinyasa yoga o il bikram yoga, che possono aiutare a rimmettersi in forma grazie al maggior sforzo fisico dovuto ad una serie di asana più energici. </p>
+      <h3 class='titolopag'>STILI</h3>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html"><b>Home</b></a>
+      <a href="stili.html"><b>Stili</b>   <i class="fas fa-arrow-left"></i></a>
+      <a href="benefici.html"><b>Benefici</b></a>
+      <a href="location.html"><b>Location</b></a>
+    </div>
+  </header>
+        <main>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            <p>Lo yoga è una disciplina millenaria il cui scopo è far ritrovare il <b> benessere e la pace interiore </b> agli individui che lo praticano attraverso l’equilibrio tra corpo, mente e spirito. Esistono diversi stili, ognuno si differenzia dall'altro, avvicinandosi al mondo dello yoga può essere difficile trovare il più giusto per se. 
+            <br>Qualsiasi stile di yoga si scelga, si può migliorare in forza, flessibilità e equilibrio. Tutti gli stili di yoga possono aiutare ad <b> allentare le tensioni nel corpo, calmare la mente e a rilassarsi</b>. Per ottenere il massimo beneficio, è consigliabile scegliere uno stile di yoga che corrisponde al livello di forma fisica e allo stato <br> mentale ed emotivo attuale. 
+            <br>Ci sono stili più attivi come il vinyasa yoga o il bikram yoga, che possono aiutare a rimmettersi in forma grazie al maggior sforzo fisico dovuto ad una serie di <br> asana più energici. </p>
           <br>
           <br>
           <br>
@@ -62,7 +73,7 @@
           <br>
           <br>
           <br>
-            <h2 class='sx'>HATHA YOGA</h2>
+            <h3 class='sx'>HATHA YOGA</h3>
             <p class='sx'> 
               Se si vuole iniziare yoga, questo è il migliore stile per i principianti. <br>
               Per Hatha Yoga si intende uno stile generico, che non segue particolari scuole, ma si rifà semplicemente alla tradizione. Quasi ogni tipo di yoga insegnato in occidente è una variante dell’Hatha Yoga classico.
@@ -86,7 +97,7 @@
           <br>
           <br>
           <br>
-            <h2 class='dx'>VINYASA FLOW YOGA</h2>
+            <h3 class='dx'>VINYASA FLOW YOGA</h3>
             <p class='dx'> 
               Vinyasa è una parola sanscrita che significa “flusso”, infatti le classi di questo stile sono note per il movimento e perché sono particolarmente intense, spesso si trova con il nominativo di <b>yoga dinamico</b>.
               <br><img src="imgs/gif3.gif" class='imgstili' alt='stili'></p>
@@ -110,7 +121,7 @@
           <br>
           <br>
           <br>
-            <h2 class='sx'>ASHTANGA YOGA </h2>
+            <h3 class='sx'>ASHTANGA YOGA </h3>
             <p class='sx'> 
               L’ashtanga yoga deriva dal vinyasa, è infatti uno stile di yoga basato sulla coordinazione di <b>respiro e movimento</b> come collegamento tra le posizioni. 
               Questo è tra i più diffusi tipi di yoga al mondo, nonostante la sua difficoltà, infatti è uno stile molto rigoroso e impegnativo dal punto di vista fisico, adatto alle persone allenate e in buona salute, meno indicato per chi abbia problemi di salute e per i più anziani.  
@@ -134,7 +145,7 @@
           <br>
           <br>
           <br>
-            <h2 class='dx'>KUNDALINI</h2>
+            <h3 class='dx'>KUNDALINI</h3>
             <p class='dx'>Questa pratica di yoga aiuta a risvegliare <b>l’energia generale</b> del corpo,  il termine kundalini indica un’energia non tangibile collocata alla base della colonna. Nelle classi di kundalini yoga si vedono i praticanti vestiti con abiti fluidi, corpicapi e turbanti bianchi, una scelta dettata dalla ricerca di espansione di energia. Ogni colore è energia che crea un effetto nel subconscio, il colore bianco dà senso di espansione.
               <br><img src="imgs/kunda2.jpg" class='imgstili' alt='stili'></p>
             <p class='dx'>
@@ -153,7 +164,7 @@
           <br>
           <br>
           <br>
-            <h2 class='sx'>YOGA DELLA RISATA</h2>
+            <h3 class='sx'>YOGA DELLA RISATA</h3>
             <p class= 'sx'> 
               Questo è una vera e propria forma di yoga che si basa su un concetto molto semplice la <b>risata autoindotta</b>. 
               Situazioni difficili, stress, impegni e troppo lavoro, purtroppo ci hanno portato a ridere sempre di meno, che non fa assolutamente bene per la salute.
@@ -164,9 +175,13 @@
               <br><p class='sx'><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>CORPO</p>
               <p class='sx'><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>MENTE</p>
             </p>
-
-    </main>
-        <footer> Template creato da Francesca Gherardi e Chiara Rotunno  |  Foto da Google  |  <a href="https://chiararotunno.github.io/about-yoga/">Documento</a>
-        </footer>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+  
+  </main>
+  <a id="back2Top" title="Back to top" href="#page-wrap">&#10148;</a>
   </body>
 </html>

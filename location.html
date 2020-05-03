@@ -2,54 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Location</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'altro Lato dello Yoga - LOCATION</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/8398afe2b3.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156185001-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-156185001-1');
-</script>
-
+    <script type="text/JavaScript" src="filejava.js"></script>
+    
     <style>
-    html {
-      background-image: url("imgs/yo.jpg");
+    header {
+      background-image: url("imgs/sfondo3.png");
       background-color: grey;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
+
     </style>
-  </head>
-  <body>
-  	<header>
-      <nav>
+  </head> 
+<body>
+  <div id="page-wrap">
+  <header class="global-header">
+   <nav>
         <a href="https://www.facebook.com/Laltro-lato-dello-YOGA-111906383672514/?modal=admin_todo_tour" <i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/?hl=en"<i class="fab fa-instagram"></i></a>
         <a href="https://twitter.com/?lang=en" <i class="fab fa-twitter"></i></a>
       </nav>
-      <div class="dropdown">
-        <button class="dropbutton"><i class="fas fa-bars"></i></button>
-        <div class="dropdown-content">
-          <a href="index.html">Torna alla Home</a>
-          <a href="stili.html">Stili di yoga</a>
-          <a href="benefici.html">Benefici fisici</a>
-          <a href="location.html"><b>Location e attrezzi</b></a>
-        </div>
+    <div id="main">
+      <h2>L'ALTRO LATO DELLO YOGA</h2>
+        <span 
+        style="font-size:35px;font-weight:bold;cursor:pointer" 
+        onclick="openNav()">&#9776; 
+      </span>
       </div>
-
-  	</header>
-      <main>
-        <h1><i class="fas fa-dumbbell"></i><br>
-        Location e attrezzi</h1>
-          <p> 
-            Se non è possibile creare una camera dedicata, basterà ritagliare uno <b>spazio in soggiorno</b>, l’importante è che sia confortevole. Naturalmente non devono mancare i quattro oggetti principali, il tappetino, un cuscino, un blocco da yoga ed una coperta, per coprirsi durante la fase finale di rilassamento. <br><img src="imgs/locat.jpeg" class= 'location' alt='location'> <img src="imgs/locat2.jpg" class= 'location2' alt='location'>
+      <h3 class='titolopag'>LOCATION E ATTREZZI</h3>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="stili.html">Stili</a>
+      <a href="benefici.html">Benefici</a>
+      <a href="location.html">Location   <i class="fas fa-arrow-left"></i></a>
+    </div>
+  </header>
+	<main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+      Se non è possibile creare una camera dedicata, basterà ritagliare uno <b>spazio in soggiorno</b>, l’importante è che sia confortevole. Naturalmente non devono mancare i quattro oggetti principali, il tappetino, un cuscino, un blocco da yoga ed una coperta, per coprirsi durante la fase finale di rilassamento. 
+      <br>
+      <br>
+      <img src="imgs/locat.jpeg" class= 'location' alt='location'> <img src="imgs/locat2.jpg" class= 'location2' alt='location'>
           </p>
           <br>
           <br>
@@ -70,9 +84,8 @@
           <p class= 'sx'>
             Infine, la <b>coperta</b> è spesso utile per la posizione di rilassamento finale, Shavasana. Questa posizione viene praticata alla fine di qualsiasi sessione di yoga ed ha lo scopo di far rilassare profondamente sia il corpo che la mente e (eventualmente) di far riconoscere al praticante la sua vera natura. Oltre a questo, la posizione ha lo scopo di bloccare e rendere stabili tutti i benefici ottenuti durante la pratica, che possono essere così più facilmente assimilati ed arrivare in profondità. <br><img src="imgs/fine.jpg" class= 'location' alt='location'>
           </p>
-      </main>
-        <footer> Template creato da Francesca Gherardi e Chiara Rotunno  |  Foto da Google  |  <a href="https://chiararotunno.github.io/about-yoga/">Documento</a>
-        </footer>
+
+  </main>
+  <a id="back2Top3" title="Back to top" href="#page-wrap">&#10148;</a>
   </body>
 </html>
-
